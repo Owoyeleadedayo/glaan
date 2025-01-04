@@ -1,6 +1,7 @@
 import { Button, Checkbox, Flex, Input, Select, Text, Textarea } from "@chakra-ui/react";
 import Footer from "../Footer";
 import { useEffect } from "react";
+import Partner from "./Partner";
 
 const Banner = () => {
   useEffect(() => {
@@ -266,6 +267,7 @@ const Banner = () => {
             </Flex>
           </Flex>
         </Flex>
+        <Partner />
         <Footer />
       </Flex>
     </>
